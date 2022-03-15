@@ -1,0 +1,80 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simon.Kenze.SixLetterwords.Console", "Simon.Kenze.SixLetterwords\Simon.Kenze.SixLetterwords.Console.csproj", "{1B3659F8-DF42-4793-8DC7-9BE4EFFE6DD9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simon.Kenze.SixLetterWords.Data", "Simon.Kenze.SixLetterWords.Data\Simon.Kenze.SixLetterWords.Data.csproj", "{65EDB73A-2747-4594-91B4-6784EF3C98A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simon.Kenze.SixLetterWords.Implementation", "Simon.Kenze.SixLetterWords.Business\Simon.Kenze.SixLetterWords.Implementation.csproj", "{919857BA-1D5D-4FA0-9945-97E6B8013F75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simon.Kenze.SixLetterWords.IntegrationTest", "Simon.Kenze.SixLetterWords.UnitTest\Simon.Kenze.SixLetterWords.IntegrationTest.csproj", "{BE247752-0902-44F0-A6B1-8643ECE296BD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Framework", "1. Framework", "{DBF825F3-A0B8-407E-A7AA-017F94AFA4B5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Data", "2. Data", "{A9C5688A-8C62-47BC-ACB6-50E178CF1F04}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Business", "3. Business", "{AD76CAFF-3284-4A7B-9ACC-D0C4EBA09710}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. UI", "4. UI", "{916773E9-29B9-4CAF-975D-DB3714FD0094}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5. Tests", "5. Tests", "{DB85D5E5-C289-46CA-8B8D-5F6BB0488945}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simon.Kenze.SixLetterWords.Responses", "Simon.Kenze.SixLetterWords.Responses\Simon.Kenze.SixLetterWords.Responses.csproj", "{E73CBA95-7170-44DC-8304-85E64D8D6AAD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simon.Kenze.SixLetterWords.Facade", "Simon.Kenze.SixLetterWords.BusinessFacade\Simon.Kenze.SixLetterWords.Facade.csproj", "{88094496-1DC4-4025-9AE4-91E518BC5BE4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simon.Kenze.SixLetterWords.Objects", "Simon.Kenze.SixLetterWords.Objects\Simon.Kenze.SixLetterWords.Objects.csproj", "{D0EA32C3-4F88-4AF7-B9B2-DA9C359BFD5B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1B3659F8-DF42-4793-8DC7-9BE4EFFE6DD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B3659F8-DF42-4793-8DC7-9BE4EFFE6DD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B3659F8-DF42-4793-8DC7-9BE4EFFE6DD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B3659F8-DF42-4793-8DC7-9BE4EFFE6DD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65EDB73A-2747-4594-91B4-6784EF3C98A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65EDB73A-2747-4594-91B4-6784EF3C98A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65EDB73A-2747-4594-91B4-6784EF3C98A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65EDB73A-2747-4594-91B4-6784EF3C98A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{919857BA-1D5D-4FA0-9945-97E6B8013F75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{919857BA-1D5D-4FA0-9945-97E6B8013F75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{919857BA-1D5D-4FA0-9945-97E6B8013F75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{919857BA-1D5D-4FA0-9945-97E6B8013F75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE247752-0902-44F0-A6B1-8643ECE296BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE247752-0902-44F0-A6B1-8643ECE296BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE247752-0902-44F0-A6B1-8643ECE296BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE247752-0902-44F0-A6B1-8643ECE296BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E73CBA95-7170-44DC-8304-85E64D8D6AAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E73CBA95-7170-44DC-8304-85E64D8D6AAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E73CBA95-7170-44DC-8304-85E64D8D6AAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E73CBA95-7170-44DC-8304-85E64D8D6AAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88094496-1DC4-4025-9AE4-91E518BC5BE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88094496-1DC4-4025-9AE4-91E518BC5BE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88094496-1DC4-4025-9AE4-91E518BC5BE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88094496-1DC4-4025-9AE4-91E518BC5BE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0EA32C3-4F88-4AF7-B9B2-DA9C359BFD5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0EA32C3-4F88-4AF7-B9B2-DA9C359BFD5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0EA32C3-4F88-4AF7-B9B2-DA9C359BFD5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0EA32C3-4F88-4AF7-B9B2-DA9C359BFD5B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1B3659F8-DF42-4793-8DC7-9BE4EFFE6DD9} = {916773E9-29B9-4CAF-975D-DB3714FD0094}
+		{65EDB73A-2747-4594-91B4-6784EF3C98A4} = {A9C5688A-8C62-47BC-ACB6-50E178CF1F04}
+		{919857BA-1D5D-4FA0-9945-97E6B8013F75} = {AD76CAFF-3284-4A7B-9ACC-D0C4EBA09710}
+		{BE247752-0902-44F0-A6B1-8643ECE296BD} = {DB85D5E5-C289-46CA-8B8D-5F6BB0488945}
+		{E73CBA95-7170-44DC-8304-85E64D8D6AAD} = {DBF825F3-A0B8-407E-A7AA-017F94AFA4B5}
+		{88094496-1DC4-4025-9AE4-91E518BC5BE4} = {AD76CAFF-3284-4A7B-9ACC-D0C4EBA09710}
+		{D0EA32C3-4F88-4AF7-B9B2-DA9C359BFD5B} = {AD76CAFF-3284-4A7B-9ACC-D0C4EBA09710}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B9F2909E-2A51-487B-982C-B13200AE46D0}
+	EndGlobalSection
+EndGlobal
