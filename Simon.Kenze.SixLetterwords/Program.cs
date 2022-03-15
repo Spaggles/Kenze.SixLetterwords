@@ -31,6 +31,8 @@ static void Main(IServiceProvider services)
     {
         Console.WriteLine(combination);
     }
+
+    Console.ReadLine();
 }
 
 static IHostBuilder CreateHostBuilder(string[] args)
